@@ -1,5 +1,5 @@
 import numpy as np
-class Connect4:
+class Connect4: 
     def __init__(self):
         self.board = [[0] * 7 for _ in range(6)]
         self.turn = 1 # player 1 goes first
