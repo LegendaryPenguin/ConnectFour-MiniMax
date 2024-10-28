@@ -1,7 +1,7 @@
 This project was part of the Hack Midwest 2024 competition. I participated in the brAInrot challange for which I had to create a connect 4 AI bot that would face off against other players bots and compete for the win.
 The bots were placed in a round robin tournament after submitting.
 
-I tested two main strategies for my Connect $ bot.
+I tested two main strategies for my Connect 4 bot.
 MiniMax - This strategy uses a resursive algorithm that checks all possible moves and gives it a score based on how close the opponent will be to winning, how close the bot will be to winning, and future placements.
 After recursively testing all spots and giving each possible move a score, the highest scoring move will be placed. 
 These moves are testing by creating a decision tree from the game state and creating nodes for each possible move sequence and then testing the scores.
